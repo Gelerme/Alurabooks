@@ -10,15 +10,16 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
     <header class="cabeçalho">
+      <div class="container">
       <input type="checkbox" id="menu" class="container__botao">
       <label for="menu">
-        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
-      <div class="container">
- <span class="cabeçalho__menu-hamburguer container__imagem"></span>
-</label>
-<ul class="lista-menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>    
+  </label>
+  <ul class="lista-menu">
    <li class="lista-menu__titulo">Categorias</li>
    <li class="lista-menu__item">
      <a href="#" class="lista-menu__link">Programação</a>
@@ -42,7 +43,7 @@
   <a href="#"><img src="img/Aulabooks/Favoritos.svg" alt="meus favoritos" class="container__imagem"></a>
   <a href="#"><img src="img/Aulabooks/Compras.svg" alt="carrinho de compras" class="container__imagem"></a>
   <a href="#"><img src="img/Aulabooks/Usuario.svg" alt="meu perfil" class="container__imagem"></a>
-  </div>
+    </div>
 
     </header>
     <section class="banner">
@@ -50,6 +51,7 @@
       <p class="banner_texto">Encontre em nossa estante o que precisa para o seu desenvolvimento</p>
       <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura">
     </section>
+
     <section class="carrossel">
       <h2 class="carrossel__titulo">Novo lançamentos</h2>
       <!--Slider main container-->
@@ -57,23 +59,55 @@
         <!--Additional requiered wrapper-->
         <div class="swiper-wrapper">
           <!--Slides-->
-          <div class="swiper-slide"><img src="img/Aulabooks/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot"</div>
-          <div class="swiper-slide"><img src="img/Aulabooks/Liderança.svg" alt="Livro sobre liderança em design"</div>
-          <div class="swiper-slide"><img src="img/Aulabooks/Javascript.svg" alt="Livro sobre javascript assertivo"</div>
-          <div class="swiper-slide"><img src="img/Aulabooks/Guia Front-end.svg" alt="Livro guia Front end"</div>
-          <div class="swiper-slide"><img src="img/Aulabooks/Portugol.svg" alt="Livro sobre Portugol"</div>
-          <div class="swiper-slide"><img src="img/Aulabooks/Acessibilidade.svg" alt="Livro sobre acessibilidade"</div>
+          <div class="swiper-slide">
+            <img src="img/Aulabooks/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Aulabooks/Liderança.svg" alt="Livro sobre liderança em design">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Aulabooks/Javascript.svg" alt="Livro sobre javascript assertivo">
+          </div>
+          <div class="swiper-slide"><img src="img/Aulabooks/Guia Front-end.svg" alt="Livro guia Front end">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Aulabooks/Portugol.svg" alt="Livro sobre Portugol">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Aulabooks/Acessibilidade.svg" alt="Livro sobre acessibilidade"</div>
+            </div>
 
           <!--If we need navigation buttons-->
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
 
-
-
         </div>
       </div>
     </section>
-    <script>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <script>
       const swiper = new Swiper(".swiper", {
         spaceBetween: 10,
         slidesPerView: 3,
